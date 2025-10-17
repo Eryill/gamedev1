@@ -11,10 +11,6 @@ public class FollowPlayer : MonoBehaviour
         
     }
 
-    void Update()
-    {
-        
-    }
 
     private void LateUpdate()
     {
