@@ -13,7 +13,7 @@ public class CameraSwitch : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             camera2.SetActive(false);
             camera3.SetActive(false);
@@ -22,14 +22,14 @@ public class CameraSwitch : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        if (Input.GetKeyDown(KeyCode.Alpha2)) {
             camera1.SetActive(false);
             camera3.SetActive(false);
             camera2.SetActive(true);
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad3))
+        if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             camera1.SetActive(false);
             camera2.SetActive(false);
